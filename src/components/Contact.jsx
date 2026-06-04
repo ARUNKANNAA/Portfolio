@@ -30,7 +30,7 @@ const Contact = () => {
 
     emailjs.send(
       'service_fot59pk',
-      'template_baz2479',
+      'template_de1mz2e',
       data,
       { publicKey: 'EclDDQZiC0aLM2Qgg' }
     )
