@@ -17,11 +17,11 @@ const Contact = () => {
     const data = {
       name: formData.get('name'),
       email: formData.get('email'),
-      phone: formData.get('phone') || 'N/A',
-      company: formData.get('company') || 'N/A',
-      project_type: formData.get('project_type') || 'N/A',
-      budget: formData.get('budget') || 'N/A',
-      timeline: formData.get('timeline') || 'N/A',
+      phone: formData.get('phone') || 'Not Provided',
+      company: formData.get('company') || 'Not Provided',
+      project_type: formData.get('project_type') || 'Not Provided',
+      budget: formData.get('budget') || 'Not Provided',
+      timeline: formData.get('timeline') || 'Not Provided',
       message: formData.get('message'),
       enquiry_type: activeTab === 'contact' ? 'General Contact' : 'Freelancing Enquiry'
     };
