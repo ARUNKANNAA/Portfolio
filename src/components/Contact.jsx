@@ -26,6 +26,8 @@ const Contact = () => {
       enquiry_type: activeTab === 'contact' ? 'General Contact' : 'Freelancing Enquiry'
     };
 
+    console.log("EmailJS Service:", "service_fot59pk");
+
     emailjs.send(
       'service_fot59pk',
       'template_baz2479',
