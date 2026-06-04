@@ -145,7 +145,7 @@ const Home = () => {
           </Link>
 
           <a 
-            href="./Arunkannaa_S_Resume.pdf" 
+            href={import.meta.env.BASE_URL + "Arunkannaa_S_Resume.pdf"} 
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 h-10 rounded-md px-8 glass border-brand-blue/40 hover:border-brand-blue hover:bg-brand-blue/10 text-white font-medium cursor-pointer transition-colors group"

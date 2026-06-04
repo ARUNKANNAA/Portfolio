@@ -9,25 +9,25 @@ import SpotlightCard from './SpotlightCard';
 const getProjectVisuals = (id) => {
   switch (id) {
     case 1:
-      return { gradient: 'from-cyan-500/30 to-blue-600/30', Icon: LuZap, image: './assets/proj-remind-BqU5D3rs.jpg' };
+      return { gradient: 'from-cyan-500/30 to-blue-600/30', Icon: LuZap, image: import.meta.env.BASE_URL + 'assets/proj-remind-BqU5D3rs.jpg' };
     case 2:
-      return { gradient: 'from-purple-500/30 to-pink-500/30', Icon: LuCamera, image: './assets/proj-aid4all-R-wteSGg.jpg' };
+      return { gradient: 'from-purple-500/30 to-pink-500/30', Icon: LuCamera, image: import.meta.env.BASE_URL + 'assets/proj-aid4all-R-wteSGg.jpg' };
     case 3:
-      return { gradient: 'from-emerald-500/30 to-cyan-500/30', Icon: LuSparkles, image: './assets/proj-nitroasis-BpOcN_iH.jpg' };
+      return { gradient: 'from-emerald-500/30 to-cyan-500/30', Icon: LuSparkles, image: import.meta.env.BASE_URL + 'assets/proj-nitroasis-BpOcN_iH.jpg' };
     case 4:
-      return { gradient: 'from-pink-500/30 to-purple-600/30', Icon: LuBot, image: './assets/proj-twinkle-CBqGlOp6.jpg' };
+      return { gradient: 'from-pink-500/30 to-purple-600/30', Icon: LuBot, image: import.meta.env.BASE_URL + 'assets/proj-twinkle-CBqGlOp6.jpg' };
     case 5:
-      return { gradient: 'from-blue-500/30 to-indigo-600/30', Icon: LuCamera, image: './assets/proj-cam-Bh8gvj2r.jpg' };
+      return { gradient: 'from-blue-500/30 to-indigo-600/30', Icon: LuCamera, image: import.meta.env.BASE_URL + 'assets/proj-cam-Bh8gvj2r.jpg' };
     case 6:
       return { gradient: 'from-orange-500/30 to-red-500/30', Icon: LuZap, image: null };
     case 7:
-      return { gradient: 'from-teal-500/30 to-blue-500/30', Icon: LuWifi, image: './assets/proj-car-6qhgRtZu.jpg' };
+      return { gradient: 'from-teal-500/30 to-blue-500/30', Icon: LuWifi, image: import.meta.env.BASE_URL + 'assets/proj-car-6qhgRtZu.jpg' };
     case 8:
-      return { gradient: 'from-yellow-500/30 to-orange-500/30', Icon: LuCircuitBoard, image: './assets/proj-solar-BExGnqLX.jpg' };
+      return { gradient: 'from-yellow-500/30 to-orange-500/30', Icon: LuCircuitBoard, image: import.meta.env.BASE_URL + 'assets/proj-solar-BExGnqLX.jpg' };
     case 9:
-      return { gradient: 'from-red-500/30 to-pink-500/30', Icon: LuZap, image: './assets/speaker.jpg' };
+      return { gradient: 'from-red-500/30 to-pink-500/30', Icon: LuZap, image: import.meta.env.BASE_URL + 'assets/speaker.jpg' };
     case 10:
-      return { gradient: 'from-blue-500/30 to-cyan-500/30', Icon: LuCircuitBoard, image: './assets/fishtank.jpg' };
+      return { gradient: 'from-blue-500/30 to-cyan-500/30', Icon: LuCircuitBoard, image: import.meta.env.BASE_URL + 'assets/fishtank.jpg' };
     default:
       return { gradient: 'from-cyan-500/30 to-purple-500/30', Icon: LuBot, image: null };
   }

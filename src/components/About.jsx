@@ -30,7 +30,7 @@ const About = () => {
             className="md:col-span-2 relative"
           >
             <div className="relative neon-border rounded-3xl overflow-hidden shadow-[0_0_30px_rgba(69,243,255,0.2)] bg-black/40 flex items-center justify-center">
-              <img src="./assets/arun-profile-BI2R_JD0.jpg" alt="Arunkannaa S" className="w-full h-auto block" />
+              <img src={import.meta.env.BASE_URL + "assets/arun-profile-BI2R_JD0.jpg"} alt="Arunkannaa S" className="w-full h-auto block" />
             </div>
             {/* Dashed rotating border element matching Lovable */}
             <div className="absolute -top-4 -right-4 w-24 h-24 rounded-full border-2 border-dashed border-brand-blue/40 animate-[spin_10s_linear_infinite]"></div>

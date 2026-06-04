@@ -30,7 +30,7 @@ const Contact = () => {
       'service_6ky1fse',
       'template_baz2479',
       data,
-      'EclDDQZiC0aLM2Qgg'
+      { publicKey: 'EclDDQZiC0aLM2Qgg' }
     )
     .then(() => {
       toast.success('Message sent successfully! I will get back to you soon.');
