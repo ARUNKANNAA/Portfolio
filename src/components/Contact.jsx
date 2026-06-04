@@ -37,8 +37,9 @@ const Contact = () => {
       formRef.current.reset();
     })
     .catch((error) => {
-      console.error(error);
-      toast.error('Failed to send message. Please try again later.');
+      console.error('EmailJS Error:', error);
+      const errorMsg = error?.text || error?.message || (typeof error === 'string' ? error : 'Unknown error');
+      toast.error(`Failed: ${errorMsg}. See console for details.`);
     })
     .finally(() => {
       setLoading(false);
