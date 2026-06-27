@@ -45,7 +45,7 @@ const Content = () => {
             <div className="absolute -top-20 -right-20 w-64 h-64 bg-red-500/20 rounded-full blur-3xl group-hover:bg-red-500/30 transition-colors"></div>
             <LuYoutube className="w-12 h-12 text-red-500 mb-4 drop-shadow-[0_0_20px_rgba(239,68,68,0.6)]" />
             <h3 className="font-bold text-2xl mb-2 text-white">YouTube</h3>
-            <p className="text-gray-400 mb-4">@SAcraftworld — robotics projects, electronics tutorials and engineering builds.</p>
+            <p className="text-gray-400 mb-4">@arun_hobbies — robotics projects, electronics tutorials and engineering builds.</p>
             <div className="inline-flex items-center text-red-400 font-medium">
               Visit Channel <LuArrowRight className="ml-1 group-hover:translate-x-1 transition-transform" />
             </div>
