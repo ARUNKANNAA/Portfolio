@@ -112,7 +112,7 @@ const Contact = () => {
                 <a href="https://github.com/ARUNKANNAA" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-xl glass border border-white/10 flex items-center justify-center text-white hover:bg-white/10 hover:border-white/50 hover:scale-110 transition-all shadow-[0_0_10px_rgba(255,255,255,0.2)]">
                   <LuGithub className="w-5 h-5" />
                 </a>
-                <a href="https://www.youtube.com/@SAcraftworld" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-xl glass border border-white/10 flex items-center justify-center text-[#FF0000] hover:bg-[#FF0000]/10 hover:border-[#FF0000]/50 hover:scale-110 transition-all shadow-[0_0_10px_rgba(255,0,0,0.2)]">
+                <a href="https://www.youtube.com/@arun_hobbies" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-xl glass border border-white/10 flex items-center justify-center text-[#FF0000] hover:bg-[#FF0000]/10 hover:border-[#FF0000]/50 hover:scale-110 transition-all shadow-[0_0_10px_rgba(255,0,0,0.2)]">
                   <LuYoutube className="w-5 h-5" />
                 </a>
                 <a href="https://www.instagram.com/arun_hobbies?igsh=MXpheTlzeXd3ZHF3" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-xl glass border border-white/10 flex items-center justify-center text-[#E1306C] hover:bg-[#E1306C]/10 hover:border-[#E1306C]/50 hover:scale-110 transition-all shadow-[0_0_10px_rgba(225,48,108,0.2)]">

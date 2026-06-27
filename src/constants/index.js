@@ -9,7 +9,7 @@ export const PERSONAL_INFO = {
   socials: {
     linkedin: "https://www.linkedin.com/in/arunkannaa-s21/",
     github: "https://github.com/ARUNKANNAA",
-    youtube: "https://www.youtube.com/@SAcraftworld",
+    youtube: "https://www.youtube.com/@arun_hobbies",
     instagram: "https://www.instagram.com/arun_hobbies?igsh=MXpheTlzeXd3ZHF3"
   }
 };
